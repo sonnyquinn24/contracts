@@ -3,7 +3,6 @@ pragma solidity ^0.8.19;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "./ContractMetadata.sol";
 
 contract RebelByNature is ERC721URIStorage, Ownable, ContractMetadata {
     uint256 public nextTokenId;
